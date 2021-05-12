@@ -33,6 +33,7 @@ rect{
 
 #headerpicture{
     background-image: url(Assets/galaxy.jfif);
+    /*background-color: #007EA7;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,7 +114,7 @@ rect{
 
 #collapsebar {
     background-color: #03181E;
-    color: gray;
+    color: #03181E;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -124,7 +125,7 @@ rect{
 }
 
 #collapsebar a:hover{
-    color: gray;
+    color:#03181E;
     text-decoration: none;
 }
 
@@ -182,6 +183,7 @@ text {
     font-size: 0.9em;
 }
 
+
 .viewbutton {
     color: white;
     text-decoration: none;
@@ -202,8 +204,14 @@ text {
 .flexcard {
     display: flex;
     width: 348px;
+    
 }
 
+/*
+.card {
+    background-color: #003249;
+}
+*/
 
 /* Contact Form */
 
