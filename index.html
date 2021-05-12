@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Side Nav-->
+    <nav class="navbar navbar-dark bg-dark col-md-2 d-none d-lg-block" id="sidenav">
+        
+        <div class="flex-nav">
+            <img class="profile-pic" src="Assets/profile.JPG">
+            <a class="navbar-nav mr-auto mr-lg-0 navbar-collapse" href="#">
+                Chase Ackeret
+                <br>
+                <span id="developertag">Software Developer</span>
+            </a>
+            <div class="navbar-collapse offcanvcas-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                        About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">
+                        Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                        Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navfooter navbar-brand mr-auto mr-lg-0">
+                <ul>
+                    <li>
+                        <a href="https://github.com/ChaseAckeret" target="blank">
+                            <img src="Assets/github.png" placeholder="GitHub">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/chase-ackeret-a681a7155/" target="blank">
+                            <img src="Assets/linkedin.png" placeholder="LinkedIn">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Collapsed Nav Bar-->
+    <div class="d-flex flex-column flex-md-row align-items-center px-md-4 d-lg-none" id="collapsebar">
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Chase Ackeret</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" style>
+                <li><a class="dropdown-item" href="#about">About</a></li>
+                <li><a class="dropdown-item" href="#projects">Projects</a></li>
+                <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="https://github.com/ChaseAckeret" target="blank">
+                    <img src="Assets/github.png" placeholder="GitHub">
+                </a></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/chase-ackeret-a681a7155/" target="blank">
+                    <img src="Assets/linkedin.png" placeholder="LinkedIn">
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-10 col-md-12" id="headerpicture"></div>
+    <div class="row justify-content-end" id="row">
+    <main role="main" class="col-lg-10 col-md-12" id="row">
+        <!--Projects-->
+        <section class="jumbotron" id="about">
+            <div class="container">
+                <h1>Hello!</h1>
+                <p class="lead text-muted about-text">
+                    First off, I want to thank you for taking the time to come view my portfolio.
+                    After obtaining my bachelors in science in psychology, I worked in social work
+                    as a family support specialist on a childrens' severe and emotional disturbed team.
+                </p>
+                <p class="lead text-muted about-text">
+                    After doing that for a few years, I ventured into the realm of operations. Although I
+                    enjoyed both of these fields, I was not getting the sense of satisfaction I was looking for.
+                    I started to teach myself advanced excel skills, VBA, and dabbled in some Python. This is were
+                    I discoverd my interest in coding. From there, I enrolled at Eleven Fifty Academy for their 
+                    software development during the fall of 2020.
+                    Through Eleven Fifty Academy I learned HTML, CSS, Bootstrap, C#, and ASP.NET.
+                </p>
+                <p>
+                    <a href="Assets/ChaseAckeret_Resume.pdf" target="blank" class="btn btn-primary my-2">
+                        View My Resume
+                    </a>
+                </p>
+            </div>
+        </section>
+        <div class="album py-5 bg-light" id="projects">
+            <div class="container">
+                <div class="row flex-container">
+                    <div class="flexcard">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="Assets/StaticStoreFront.JPG" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="" preserveaspectratio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <title>Static Layout</title>
+                            <rect width="100%" height="100%" fill="#55595c">
+                                <text class="text-muted" x="50%" fill="#eceeef" dy=".3em">Static Store Front</text>
+                                <div class="card-body">
+                                    <p class="card-text text-muted">
+                                        "In this HTML/CSS project, I built a static store front to implement the skills I learned during thr first couple weeks of my course at Eleven Fifty Academy."
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                                <a href="https://github.com/ChaseAckeret/EFA_StoreFrontAssignment" target="blank" class="viewbutton">View Code</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </rect>
+                        </div>
+                    </div>
+                    <div class="flexcard">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="Assets/GoldBadge.JPG" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="" preserveaspectratio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <title>Gold Badge</title>
+                            <rect width="100%" height="100%" fill="#55595c">
+                                <text class="text-muted" x="50%" y="50%"" fill="#eceeef" dy=".3em">Gold Badge Challenge</text>
+                                <div class="card-body">
+                                    <p class="card-text text-muted">
+                                        "This collection of C# console apps showcases what I learned in my first 4 weeks at Eleven Fifty Academy."
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                                <a href="https://github.com/ChaseAckeret/EFA_GoldBadgeConsoleApplications" target="blank" class="viewbutton">View Code</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </rect>
+                        </div>
+                    </div>
+
+                    <div class="flexcard">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="Assets/ToolChest.JPG" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="" preserveaspectratio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <title>Blue Badge</title>
+                            <rect width="100%" height="100%" fill="#55595c">
+                                <text class="text-muted" x="50%" y="50%"" fill="#eceeef" dy=".3em">ASP.NET Group Project</text>
+                                <div class="card-body">
+                                    <p class="card-text text-muted">
+                                        "This C# project was a group ASP.NET project that we worked on during Blue Badge."
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                                <a href="https://github.com/ChaseAckeret/ToolChest" target="blank" class="viewbutton">View Code</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </rect>
+                        </div>
+                    </div>
+
+                    <div class="flexcard">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="Assets/IndProject.JPG" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="" preserveaspectratio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <title>Red Badge</title>
+                            <rect width="100%" height="100%" fill="#55595c">
+                                <text class="text-muted" x="50%" y="50%"" fill="#eceeef" dy=".3em">Individual ASP.NET Project</text>
+                                <div class="card-body">
+                                    <p class="card-text text-muted">
+                                        "This C# project was an individual project to showcase what I have learned over the past 6 months at Eleven Fifty Academy."
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                                <a href="https://github.com/ChaseAckeret/LongshotParlays" target="blank" class="viewbutton">View Code</a>
+                                            </button>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                                <a href="https://longshotparlays.azurewebsites.net/" target="blank" class="viewbutton">View Site</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </rect>
+                        </div>
+                    </div>
+
+                    <div class="flexcard">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="Assets/DevTeamApp.JPG" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="" preserveaspectratio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <title>Development Team App</title>
+                            <rect width="100%" height="100%" fill="#55595c">
+                                <text class="text-muted" x="50%" y="50%"" fill="#eceeef" dy=".3em">Dev Team App</text>
+                                <div class="card-body">
+                                    <p class="card-text text-muted">
+                                        "This C# project was a console app for a hypothetical business to track teams."
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                                <a href="https://github.com/ChaseAckeret/EFA_DevTeamApp" target="blank" class="viewbutton">View Code</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </rect>
+                        </div>
+                    </div>
+
+                    <div class="flexcard">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="Assets/ElevenNote.JPG" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="" preserveaspectratio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <title>Eleven Note</title>
+                            <rect width="100%" height="100%" fill="#55595c">
+                                <text class="text-muted" x="50%" y="50%"" fill="#eceeef" dy=".3em">Eleven Note</text>
+                                <div class="card-body">
+                                    <p class="card-text text-muted">
+                                        "This C# project was an ASP.NET excerise to build a note taking application."
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                                <a href="https://github.com/ChaseAckeret/EFA_RedBadge_ElevenNote" target="blank" class="viewbutton">View Code</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </rect>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <!--Contact Form-->
+            <div class="container" id="contact">
+                <h3>Contact Me</h3>
+                <form action="https://formspree.io/f/mbjqglqv" method="POST">
+                    <div class="halffields">
+                        <div class="formname">
+                            <input type="text" name="_NameOfSender" class="contactform" placeholder="Name">
+                        </div>
+                        <div class="formemail">
+                            <input type="text" name="_replyTo" class="contactform" placeholder="E-mail">
+                        </div>
+                    </div>
+                        <input type="text" name="_subject" class="contactform" placeholder="Subject">
+                        <textarea name="message" class="contactform" placeholder="Message"></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            <!--End Form-->
+        </div>
+        <!--Footer-->
+        <footer class="text-muted">
+            <div class="container">
+                <p>© 2021</p>
+            </div>
+        </footer>
+    </main>  
+    </div>  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
